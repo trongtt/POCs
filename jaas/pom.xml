@@ -1,0 +1,37 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+      <groupId>t3.pocs</groupId>
+      <artifactId>pocs-parent</artifactId>
+      <version>1.0-SNAPSHOT</version>
+   </parent>
+   <artifactId>pocs-jaas</artifactId>
+   <packaging>jar</packaging>
+   <name>POCs JAAS Test</name>
+
+   <dependencies>
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>3.8.1</version>
+      </dependency>
+      <dependency>
+         <groupId>hsqldb</groupId>
+         <artifactId>hsqldb</artifactId>
+         <version>1.8.0.7</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.slf4j</groupId>
+         <artifactId>slf4j-api</artifactId>
+         <version>1.5.8</version>
+         <scope>compile</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.slf4j</groupId>
+         <artifactId>slf4j-log4j12</artifactId>
+         <version>1.5.8</version>
+      </dependency>
+   </dependencies>
+</project>

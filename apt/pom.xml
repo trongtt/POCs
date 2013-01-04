@@ -1,0 +1,25 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+      <groupId>t3.pocs</groupId>
+      <artifactId>pocs-parent</artifactId>
+      <version>1.0-SNAPSHOT</version>
+   </parent>
+   <artifactId>pocs-apt</artifactId>
+   <packaging>jar</packaging>
+   <name>POCs APT Test</name>
+
+   <build>
+      <pluginManagement>
+         <plugins>
+            <plugin>
+               <artifactId>maven-compiler-plugin</artifactId>
+               <configuration>
+                  <compilerArgument>-proc:none</compilerArgument>
+               </configuration>
+            </plugin>
+         </plugins>
+      </pluginManagement>
+   </build>
+</project>

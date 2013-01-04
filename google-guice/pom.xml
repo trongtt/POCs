@@ -1,0 +1,28 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+      <groupId>t3.pocs</groupId>
+      <artifactId>pocs-parent</artifactId>
+      <version>1.0-SNAPSHOT</version>
+   </parent>
+   <artifactId>pocs-google-guice</artifactId>
+   <packaging>jar</packaging>
+   <name>POCs Google Guice Test</name>
+
+   <dependencies>
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>3.8.1</version>
+      </dependency>
+
+      <!-- Guice dependencies -->
+      <dependency>
+         <groupId>com.google.inject</groupId>
+         <artifactId>guice</artifactId>
+         <version>3.0</version>
+      </dependency>
+      <!-- End -->
+   </dependencies>
+</project>
