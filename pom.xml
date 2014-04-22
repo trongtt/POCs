@@ -7,6 +7,7 @@
    <name>POCs parent pom</name>
 
    <modules>
+      <module>javase-api</module>
       <module>google-guice</module>
       <module>jaas</module>
       <module>apt</module>
