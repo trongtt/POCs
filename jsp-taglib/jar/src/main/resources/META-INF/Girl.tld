@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+   <description>Girl taglib</description>
+   <display-name>Girl Tag</display-name>
+   <tlib-version>2.0</tlib-version>
+   <jsp-version>1.1</jsp-version>
+   <short-name>bar</short-name>
+   <uri>http://pocs.trongtt.com/t3/jsp/taglib/girl_1_0</uri>
+   <tag>
+      <name>girl</name>
+      <tag-class>t3.pocs.jsp.taglib.GirlTag</tag-class>
+      <attribute>
+         <name>name</name>
+         <required>true</required>
+      </attribute>
+      <attribute>
+         <name>age</name>
+         <required>true</required>
+      </attribute>
+   </tag>
+</taglib> 
