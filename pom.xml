@@ -10,6 +10,7 @@
       <module>javase-api</module>
       <module>google-guice</module>
       <module>jaas</module>
+      <module>mongodb</module>
       <module>apt</module>
       <module>jersey</module>
       <module>jsp-taglib</module>
