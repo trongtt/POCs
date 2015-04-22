@@ -14,6 +14,7 @@
       <module>apt</module>
       <module>jersey</module>
       <module>jsp-taglib</module>
+      <module>jpa</module>
    </modules>
 
    <dependencyManagement>
