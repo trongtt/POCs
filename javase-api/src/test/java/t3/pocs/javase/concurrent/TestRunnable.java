@@ -35,7 +35,7 @@ public class TestRunnable extends TestCase {
         public A(String id) {
             this.id = id;
         }
-        
+
         @Override
         public void run() {
             System.out.println("Running " + this.id);
