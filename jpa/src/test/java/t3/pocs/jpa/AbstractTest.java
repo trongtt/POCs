@@ -25,5 +25,7 @@ public abstract class AbstractTest {
 
   public static EntityManagerFactory createEntityManagerFactory() {
     return Persistence.createEntityManagerFactory("t3.pocs.jpa.hsql");
+//    return Persistence.createEntityManagerFactory("t3.pocs.jpa.h2");
+//    return Persistence.createEntityManagerFactory("t3.pocs.jpa.mysql");
   }
 }

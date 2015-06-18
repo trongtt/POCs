@@ -32,4 +32,20 @@
       <property name="hibernate.hbm2ddl.auto" value="create" />
     </properties>
   </persistence-unit>
+
+  <persistence-unit name="t3.pocs.jpa.mysql" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+    <properties>
+      <!-- Test on MySQL DB -->
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpatestdb" />
+      <property name="javax.persistence.jdbc.user" value="root" />
+      <property name="javax.persistence.jdbc.password" value="" />
+
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+      <property name="hibernate.show_sql" value="true" />
+      <property name="hibernate.hbm2ddl.auto" value="create" />
+    </properties>
+  </persistence-unit>
 </persistence>
