@@ -24,8 +24,13 @@ public abstract class AbstractTest {
   }
 
   public static EntityManagerFactory createEntityManagerFactory() {
+    String db = System.getProperty("db");
+    if ("h2".equals(db)) {
+      return Persistence.createEntityManagerFactory("t3.pocs.jpa.h2");
+    } else if ("mysql".equals(db)){
+      return Persistence.createEntityManagerFactory("t3.pocs.jpa.mysql");
+    }
+
     return Persistence.createEntityManagerFactory("t3.pocs.jpa.hsql");
-//    return Persistence.createEntityManagerFactory("t3.pocs.jpa.h2");
-//    return Persistence.createEntityManagerFactory("t3.pocs.jpa.mysql");
   }
 }
