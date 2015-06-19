@@ -24,7 +24,7 @@ public abstract class AbstractTest {
   }
 
   public static EntityManagerFactory createEntityManagerFactory() {
-    String db = System.getProperty("db");
+    String db = System.getProperty("database");
     if ("h2".equals(db)) {
       return Persistence.createEntityManagerFactory("t3.pocs.jpa.h2");
     } else if ("mysql".equals(db)){
